@@ -1,18 +1,15 @@
 import * as React from "react"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
-import Games from "./features/games"
-import LiteBrite from "./features/liteBrite"
+import ColorPanel from "./features/liteBrite/colors/components/colorPanel"
+import BoardContainer from "./features/liteBrite/board"
 
-const App = () => {
+const LiteBriteApp = () => {
     return (
-        <Router>
-            <Routes>
-                <Route path="/" element={<Games/>}></Route>
-                <Route path="/lite-brite" element={<LiteBrite/>}></Route>
-            </Routes>
-        </Router>
+        <div className="game-container_lite-brite">
+            <ColorPanel/>
+            <BoardContainer/>
+        </div>
     )
 }
 
-export default App
+export default LiteBriteApp

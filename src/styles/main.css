@@ -1,4 +1,5 @@
 @import "./shared/variables.css";
 @import "./shared/general.css";
-
-@import "./liteBrite/index.css";
+@import "./layout.css";
+@import "./colorPanel.css";
+@import "./board.css";

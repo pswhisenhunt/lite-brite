@@ -1,6 +1,6 @@
 module.exports = {
     plugins: [
-        /* Add prefixes for the browsers we support (in browserList() */
+        /* Add prefixes for the browsers I want to support (see browserList in package.json to view supported browsers) */
         require("autoprefixer"),
 
         /* Minifier */
