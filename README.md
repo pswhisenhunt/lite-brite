@@ -13,5 +13,9 @@ I built this to:
 
 
 
-
-
+You can:
+- choose from default colors
+- add your own custom colors (I use json-server to persist this data) and delete them
+- draw on the board by either clicking on a circle or dragging your mouse across the cricles you wish to color
+- erase a color by either clicking on a circle or dragging your mouse across the cirlcs you wish to erase
+- you can erase the entire board by clicking the reset button
