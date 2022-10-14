@@ -1,0 +1,12 @@
+:root {
+    --light-text-color: white;
+    --dark-text-color:  #020106;
+    --bright-text-color: #8fffea;
+    --background-color:  #020106;
+    --border-color:  #541348;
+    --body-font: 'Quicksand', sans-serif;
+    --font-light: 300;
+    --font-medium: 500;
+    --font-regular: 400;
+    --font-bold: 700;
+}

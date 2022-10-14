@@ -1,0 +1,55 @@
+{
+  "defaults": [
+    {
+      "id": 1,
+      "name": "Bright Pink",
+      "value": "#ff47c8"
+    },
+    {
+      "id": 2,
+      "name": "Aquamarine",
+      "value": "#33f8ff"
+    },
+    {
+      "id": 3,
+      "name": "Lime Green",
+      "value": "#4cff42"
+    },
+    {
+      "id": 4,
+      "name": "Sunshine Yellow",
+      "value": "#fff536"
+    },
+    {
+      "id": 5,
+      "name": "Pure Orange",
+      "value": "#ff7700"
+    },
+    {
+      "id": 6,
+      "name": "Neon Purple",
+      "value": "#e083fc"
+    },
+    {
+      "id": 7,
+      "name": "Bright Red",
+      "value": "#ff1f1f"
+    },
+    {
+      "id": 8,
+      "name": "Seaform Green",
+      "value": "#99ffe2"
+    },
+    {
+      "id": 9,
+      "name": "Electric Blue",
+      "value": "#5c28f7"
+    },
+    {
+      "id": 10,
+      "name": "Salmon",
+      "value": "#ff968c"
+    }
+  ],
+  "customs": []
+}

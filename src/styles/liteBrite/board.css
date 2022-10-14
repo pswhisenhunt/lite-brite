@@ -1,0 +1,48 @@
+.board-container {
+    width: 100%;
+}
+
+.board-header {
+    display: flex;
+}
+
+.eraser-container {
+    order: 2;
+    align-self: center;
+    margin-left: -12em;
+    margin-bottom: 0.8em;
+    cursor: pointer;
+}
+
+.eraser-container svg {
+    height: 2.4em;
+}
+
+.reset-button {
+    align-self: center;
+    margin-left: -5.6em;
+    margin-bottom: 0.8em;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+    padding: 0.8em;
+    background-color: transparent;
+    color: var(--light-text-color);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+    width: 90%;
+}
+
+.cell {
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    padding: 1.2em;
+    box-shadow: inset 1px 1px 0 var(--border-color);
+    background-color: transparent;
+}

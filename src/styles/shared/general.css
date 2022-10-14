@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--light-text-color);
+    font-family: var(--body-font);
+}

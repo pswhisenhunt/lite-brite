@@ -1,0 +1,15 @@
+.game-container_lite-brite {
+    display: flex;
+    gap: 30px;
+}
+
+.title {
+    color: var(--bright-text-color);
+    font-family: var(--body-font);
+    font-weight: var(--font-light);
+}
+
+.section-heading {
+    width: 90%;
+    border-bottom: 1px solid var(--border-color);
+}
